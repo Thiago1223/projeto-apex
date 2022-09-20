@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    background-image: url(./img/background-apex.png);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 121.5px;
+    justify-content: center;
+    align-items: center;
+}
+.menu__superior {
+    display: flex;
+    width: 1920px;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    padding-right: 32.5px;
+    background-color: #161616;
+}
+.menu__inferior {
+    display: flex;
+    width: 1655px;
+    height: 81.5px;
+}
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 76px;
+    gap: 40px;
+}
+.logo {
+    width: 75px;
+    height: 50px;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oxanium';
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    gap: 40px;
+}
+.botao {
+    color: #FFFFFF;
+}
+.download {
+    z-index: 1;
+    margin-left: 260px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.background__botao {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1333px;
+    width: 233px;
+    height: 48px;
+    background-color: #C83C35;
+}
+.canto__esquerdo {
+    position: absolute;
+    margin-left: -15px;
+}
+.canto__direito {
+    position: absolute;
+    margin-left: 1620px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxanium';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.logo__grande {
+    margin-top: 180px;
+    margin-left: 80px;
+}
+.descricao {
+    margin-left: 85px;
+    width: 841px;
+    height: 74px;
+}
+.botao__play {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-left: 75px;
+}
+.play {
+    margin-left: 45px;
+    color: #FFFFFF;
+}
+.fundo__botoes {
+    position: absolute;
+    width: 279.47px;
+    height: 61.49px;
+    border: 1px solid #AAAAAA;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: -61px;
+    margin-left: -5px;
+    z-index: -1;
+}
+.barra {
+    display: flex;
+    margin-top: -45px;
+    margin-left: 72px;
+}
+.barra__laranja {
+    display: flex;
+    margin-top: 44.5px;
+    margin-left: -5.7px;
+}
+.fundo__botao {
+    position: absolute;
+    margin-top: -60.5px;
+    margin-left: -4.5px;
+    z-index: -1;
+}
+.fundo__botao2 {
+    position: absolute;
+    margin-top: -60.5px;
+    margin-left: 186px;
+    z-index: -1;
+}
+.watch {
+    position: absolute;
+    margin-top: -47px;
+    margin-left: 400px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.fundo__botoes2 {
+    position: absolute;
+    width: 279.47px;
+    height: 61.49px;
+    border: 1px solid #AAAAAA;
+    backdrop-filter: blur(15px);
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: -62px;
+    margin-left: 378px;
+    z-index: -1;
+}
+.barra2 {
+    position: absolute;
+    margin-top: -62px;
+    margin-left: 450px;
+}
+.barra__laranja2 {
+    position: absolute;
+    margin-top: -9.5px;
+    margin-left: 377px;
+}
+.fundo__botao__watch {
+    position: absolute;
+    margin-top: -61.5px;
+    margin-left: 379px;
+    z-index: -1;
+}
+.fundo__botao__watch2 {
+    position: absolute;
+    margin-top: -60.5px;
+    margin-left: 569px;
+    z-index: -1;
+}
+.personagem {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    margin-top: -452px;
+    margin-left: 1220px;
+}
+.logo__fundo__personagem {
+    position: absolute;
+    width: 733px;
+    height: 739px;
+    margin-top: -540px;
+    margin-left: 1080px;
+    z-index: -1;
+}
+.pedaco__logo {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 53.5px;
+    width: 255px;
+    height: 109px;
+}
