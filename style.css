@@ -182,22 +182,22 @@ main {
 .personagem {
     position: absolute;
     width: 600px;
-    height: 700px;
-    margin-top: -452px;
+    height: auto;
+    margin-top: -472px;
     margin-left: 1220px;
 }
 .logo__fundo__personagem {
     position: absolute;
     width: 733px;
-    height: 739px;
+    height: auto;
     margin-top: -540px;
     margin-left: 1080px;
     z-index: -1;
 }
 .pedaco__logo {
     position: absolute;
-    margin-left: 1150px;
-    margin-top: 53.5px;
+    margin-left: 1137px;
+    margin-top: 32px;
     width: 255px;
-    height: 109px;
+    height: auto;
 }
