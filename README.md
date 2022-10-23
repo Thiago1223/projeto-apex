@@ -1,4 +1,4 @@
-# Valorant
+# Apex Legends
 
 ![](./img/screenshot.png)
 
